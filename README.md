@@ -1,4 +1,4 @@
-# Fluentd container for Elasticsearch and Influxdb 
+# Fluentd container for OpenSearch and Influxdb 
 
 ## Overview
 
@@ -18,7 +18,9 @@ Variable | Example
 -------- | -----
 `INFLUXDB_HOST` | `influx.default.svc.cluster.local:8086`
 `INFLUXDB_TOKEN` | `xxxxxxx`
-`ELASTICSEARCH_HOST` | `es.default.svc.cluster.local:9200`
+`OPENSEARCH_HOST` | `es.default.svc.cluster.local:9200`
+`OPENSEARCH_USER` | admin
+`OPENSEARCH_PASS` | changeme
 
 ### Client setup 
 

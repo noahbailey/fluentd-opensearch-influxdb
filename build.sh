@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t fluentd-elastic-influx:latest .
+docker build -t noahbailey/fluentd-opensearch-influxdb:latest .
 
