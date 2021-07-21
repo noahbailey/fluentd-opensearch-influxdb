@@ -30,4 +30,4 @@ jobs:
         run: bash ./build.sh
 
       - name: Push container
-        docker push $IMAGE_NAME:latest
+        run: docker push $IMAGE_NAME:latest
